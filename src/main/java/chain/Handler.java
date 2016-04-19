@@ -6,7 +6,7 @@ public abstract class Handler {
 	
 	public final Response handMessage(Request request)
 	{
-		Response response = null;
+		Response response = new Response("there is no handler can handle it");
 		if (this.getLevel().getLevel() == request.getRequestLevel().getLevel()) {
 			return this.echo();
 		}else {
