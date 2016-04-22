@@ -1,6 +1,6 @@
 package prototype;
 
-public class PrototypeClass {
+public class PrototypeClass implements Cloneable{
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
