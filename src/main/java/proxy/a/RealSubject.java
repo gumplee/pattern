@@ -1,4 +1,4 @@
-package proxy;
+package proxy.a;
 
 public class RealSubject implements Subject {
 	private String name;
